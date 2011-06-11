@@ -1,0 +1,7 @@
+A toy TCP proxy server that will pause the flow of traffic, buffering
+until you un-pause.
+
+I wrote this one morning after a chat with Andrew, at Meetup.  He
+needed a proxy for testing a daemon of his that talked to a RabbitMQ
+server (iirc).  I pointed him towards simpleproxy but it got me
+thinking and this turned out to be a fun little project.
